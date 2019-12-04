@@ -78,7 +78,7 @@ public class Module1_Tests {
 
 
 	@Test
-	public void _task1() {
+	public void task_1() {
 		// Task 2(a) - Check if method listPosts() exists
 		assertNotNull("Task 1: Method listPosts() does not exist in BlogController.", method);
 	}
