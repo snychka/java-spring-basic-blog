@@ -148,7 +148,7 @@ public class Module1_Tests {
 	}
 
 	@Test
-	public void _task1() {
+	public void _task4() {
 		// TODO This fails after Module 3 is completed
 		Document doc = null;
 		String errorInfo = "";
