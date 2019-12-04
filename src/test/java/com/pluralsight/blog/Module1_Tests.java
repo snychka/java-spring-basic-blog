@@ -78,13 +78,13 @@ public class Module1_Tests {
 
 
 	@Test
-	public void _task1() {
+	public void task_1() {
 		// Task 2(a) - Check if method listPosts() exists
 		assertNotNull("Task 1: Method listPosts() does not exist in BlogController.", method);
 	}
 
 	@Test
-	public void _task2() {
+	public void task_2() {
 		// Task 1
 		assertNotNull("Task 1: Method listPosts() does not exist in BlogController.", method);
 
@@ -107,7 +107,7 @@ public class Module1_Tests {
 
 
 	@Test
-	public void _task3() {
+	public void task_3() {
 		// Task 3(a)
 		assertNotNull("Task 1: Method listPosts() does not exist in BlogController.", method);
 		int numParameters = method.getParameterCount();
@@ -148,7 +148,7 @@ public class Module1_Tests {
 	}
 
 	@Test
-	public void _task4() {
+	public void task_4() {
 		// TODO This fails after Module 3 is completed
 		Document doc = null;
 		String errorInfo = "";
