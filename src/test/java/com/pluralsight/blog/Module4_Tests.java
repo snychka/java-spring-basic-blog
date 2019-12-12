@@ -191,8 +191,10 @@ public class Module4_Tests {
         assertNotNull(annotations);
         assertTrue("Task 3: There are no annotation on the postDetails() method.", annotations.length >= 1);
 
+        // Stefan adding
+        //System.out.println("annotations[0].toString(): " + annotations[0].toString());
         assertTrue("Task 3: The @RequestMapping annotation doesn't have the value \"/post/{id}\".",
-                annotations[0].toString().contains("value={\"/post/{id}\"}"));
+                annotations[0].toString().contains("value={\"/post/{id}\"}") || annotations[0].toString().contains("value=[/post/{id}]"));
     }
 
     @Test
